@@ -24,7 +24,7 @@ const Navbar=()=>{
 
     <div class="nav-buttons-mobile hidden-nav">
         <a href="#hero" class="nav-btn">Home</a>
-        <a href="https://ashik-irfan.github.io/lyncfestbuild" class="nav-btn">Schedule</a>
+        <a href="" class="nav-btn">Schedule</a>
         <a href="#sponsors" class="nav-btn">Problems</a>
         <a href="#about-us" class="nav-btn">Sponsors</a>
         <a href="#footer" class="nav-btn">Guidelines</a>
