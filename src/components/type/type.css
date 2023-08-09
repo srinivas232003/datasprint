@@ -1,19 +1,20 @@
-.typing-div h1 {
-    color: white;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
+
+.typing-div{
+    position:relative;
+    color:rgb(191, 101, 191);
+    margin:3%;
+}
+.typing-div h1{
     font-size: 5rem;
     font-weight: 300;
     margin: 0;
-    text-align: left;
+    text-align: center;
 }
 
-.typing-div h1 .typed {
-    color: blue !important; /* Change this to the text color you desire */
-}
-
-.typing-div h1 .typed-cursor {
-    color: red !important; /* Change this to the cursor color you desire */
-}
-/* @media  (max-width: 570px){
+@media  (max-width: 570px){
     .typing-div h1{
         font-size: 3rem;
         font-weight: 700;
@@ -25,5 +26,10 @@
         font-size: 2.5rem;
         font-weight: 700;
     }
-  } */
- 
+  }
+  @media screen and (min-width: 350px) and (max-width: 800px){
+    .typing-div{
+        margin:8% 5%;
+    }
+  
+}

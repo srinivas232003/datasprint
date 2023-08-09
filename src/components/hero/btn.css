@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.butn{
+  position: relative;
+    background:none;
+  color:#e2bef1;
+  font-size:2rem;
+  border:2px solid rgb(191, 101, 191);
+  padding:1rem 2rem;
+  transition:all 0.25s;
+}
+.butn-container{
+    text-align: center;
+    margin-top:4%;
+}
+.butn:hover{
+  border-color:#461959;
+  color:white;
+  background-color:#461959;
+  box-shadow: 0 0.5em 0.7em -0.4em #461959;
+  transform:translateY(-0.25em);
+  cursor:pointer;
+}
+@media screen and (min-width: 350px) and (max-width: 800px){
+
+.butn-container{
+    margin-top:12%;
+
+}
+}

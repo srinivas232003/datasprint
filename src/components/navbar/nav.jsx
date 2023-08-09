@@ -13,22 +13,22 @@ const Navbar=()=>{
 
         <div class="nav-buttons">
             <a href="#hero" class="nav-btn">Home</a>
-            <a href="https://ashik-irfan.github.io/lyncfestbuild" class="nav-btn">Hackathon</a>
-            <a href="#sponsors" class="nav-btn">Sponsors</a>
-            <a href="#about-us" class="nav-btn">About</a>
-            <a href="#footer" class="nav-btn">Contact</a>
-            <a href="#events" class="nav-btn ghost-btn">Events</a>
+            <a href="" class="nav-btn">Schedule</a>
+            <a href="#sponsors" class="nav-btn">Problems</a>
+            <a href="#about-us" class="nav-btn">Sponsors</a>
+            <a href="#footer" class="nav-btn">Guidelines</a>
+            <a href="#events" class="nav-btn ghost-btn">Register</a>
         </div>
     
     </nav>
 
     <div class="nav-buttons-mobile hidden-nav">
         <a href="#hero" class="nav-btn">Home</a>
-        <a href="https://ashik-irfan.github.io/lyncfestbuild" class="nav-btn">Hackathon</a>
-        <a href="#sponsors" class="nav-btn">Sponsors</a>
-        <a href="#about-us" class="nav-btn">About</a>
-        <a href="#footer" class="nav-btn">Contact</a>
-        <a href="#events" class="nav-btn ghost-btn">Events</a>
+        <a href="https://ashik-irfan.github.io/lyncfestbuild" class="nav-btn">Schedule</a>
+        <a href="#sponsors" class="nav-btn">Problems</a>
+        <a href="#about-us" class="nav-btn">Sponsors</a>
+        <a href="#footer" class="nav-btn">Guidelines</a>
+        <a href="#events" class="nav-btn ghost-btn">Register</a>
     </div>
 
     <div class="hamburger" onClick={(e)=>{
