@@ -5,33 +5,33 @@ const Navbar=()=>{
     
     return(
         <Fragment>
-        <nav class="header-nav">
-        <div class="branding">
+        <nav className="header-nav">
+        <div className="branding">
             <img src={logo} alt=""/>
-            {/* <h1 class="brand-name">Lync Fest</h1> */}
+            {/* <h1 className="brand-name">Lync Fest</h1> */}
         </div>
 
-        <div class="nav-buttons">
-            <a href="#hero" class="nav-btn">Home</a>
-            <a href="" class="nav-btn">Schedule</a>
-            <a href="#sponsors" class="nav-btn">Problems</a>
-            <a href="#about-us" class="nav-btn">Sponsors</a>
-            <a href="#footer" class="nav-btn">Guidelines</a>
-            <a href="#events" class="nav-btn ghost-btn">Register</a>
+        <div className="nav-buttons">
+            <a href="#hero" className="nav-btn">Home</a>
+            <a href="" className="nav-btn">Schedule</a>
+            <a href="#sponsors" className="nav-btn">Problems</a>
+            <a href="#about-us" className="nav-btn">Sponsors</a>
+            <a href="#footer" className="nav-btn">Guidelines</a>
+            <a href="#events" className="nav-btn ghost-btn">Register</a>
         </div>
     
     </nav>
 
-    <div class="nav-buttons-mobile hidden-nav">
-        <a href="#hero" class="nav-btn">Home</a>
-        <a href="" class="nav-btn">Schedule</a>
-        <a href="#sponsors" class="nav-btn">Problems</a>
-        <a href="#about-us" class="nav-btn">Sponsors</a>
-        <a href="#footer" class="nav-btn">Guidelines</a>
-        <a href="#events" class="nav-btn ghost-btn">Register</a>
+    <div className="nav-buttons-mobile hidden-nav">
+        <a href="#hero" className="nav-btn">Home</a>
+        <a href="" className="nav-btn">Schedule</a>
+        <a href="#sponsors" className="nav-btn">Problems</a>
+        <a href="#about-us" className="nav-btn">Sponsors</a>
+        <a href="#footer" className="nav-btn">Guidelines</a>
+        <a href="#events" className="nav-btn ghost-btn">Register</a>
     </div>
 
-    <div class="hamburger" onClick={(e)=>{
+    <div className="hamburger" onClick={(e)=>{
             document.querySelector('.nav-buttons-mobile').classList.toggle('hidden-nav')
             let i=0;
             document.querySelectorAll('.hamburger span').forEach((span)=>{ 
@@ -40,9 +40,9 @@ const Navbar=()=>{
              })
           }
     }>
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
+        <span className="line"></span>
+        <span className="line"></span>
+        <span className="line"></span>
     </div>
     </Fragment>
     )   
