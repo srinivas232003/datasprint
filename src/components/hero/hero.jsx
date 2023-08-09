@@ -12,7 +12,7 @@ const Hero=()=>{
     </section>
     <Type/>
     <div className="desc-cont">
-    <p className="desc">Bring-out your hidden tech genius in this <span>24</span> hours hackathon by solving difficult problems faced by the public.</p>
+    <p className="desc">Bring-out your hidden tech genius in this <span>36</span> hours hackathon by solving difficult problems faced by the public.</p>
     </div>
     <hr/>
     <div class="countdown-txt">
