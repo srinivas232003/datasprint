@@ -176,9 +176,9 @@
 
     .nav-btn:focus{
         color: white;
-        background-color: #1565c0;
+        background-color:rgb(191, 101, 191) ;
         transform: scale(1.1);
-        box-shadow: 0 0 15px #1565c0;
+        box-shadow: 0 0 15px #461959;
     }
 
     .about-us{
