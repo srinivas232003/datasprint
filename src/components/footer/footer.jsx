@@ -1,9 +1,10 @@
 import react from "react";
+
 import "./footer.css"
 const Footer=()=>{
     return(
       
-  <footer className="footer-main bg-dark fixed-bottom">
+  <footer className="footer-main bg-dark fixed-bottom" style={{  position: "relative",marginBottom: "-50px"}}>
   <div className="container">
     <div className="row address-main">
       <div className="col-lg-4 col-sm-12 col-xs-12">

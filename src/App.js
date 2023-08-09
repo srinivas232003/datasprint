@@ -6,6 +6,7 @@ import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 import Footer from './components/footer/footer';
 import Navbar from './components/navbar/nav';
+import Timeline from './components/timeline/timeline';
 function App() {
   const particlesInit = useCallback(async engine => {
     console.log(engine);
@@ -118,6 +119,8 @@ return (
         smooth:true,
       }}/>
       <Navbar/>
+      {/* <Type/> */}
+      <Timeline/>
       <Footer/>
 </div>
 );

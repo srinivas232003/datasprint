@@ -1,0 +1,29 @@
+.typing-div h1 {
+    color: white;
+    font-size: 5rem;
+    font-weight: 300;
+    margin: 0;
+    text-align: left;
+}
+
+.typing-div h1 .typed {
+    color: blue !important; /* Change this to the text color you desire */
+}
+
+.typing-div h1 .typed-cursor {
+    color: red !important; /* Change this to the cursor color you desire */
+}
+/* @media  (max-width: 570px){
+    .typing-div h1{
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+@media  (max-width: 330px){   
+    .typing-div h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+  } */
+ 

@@ -44,7 +44,6 @@ const Navbar=()=>{
         <span class="line"></span>
         <span class="line"></span>
     </div>
-
     </Fragment>
     )   
 

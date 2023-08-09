@@ -1,7 +1,13 @@
 .footer-main{
     padding-top: 90px;
-}
-
+  
+  }
+.fixed-bottom {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
 .address-main > div.col-lg-4 {
     border-bottom: dotted 1px #999;
 }
