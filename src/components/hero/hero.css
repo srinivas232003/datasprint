@@ -81,12 +81,7 @@
         flex-direction: column;
     }
 
-    .nav-btn:focus{
-        color: white;
-        background-color: #1565c0;
-        transform: scale(1.1);
-        box-shadow: 0 0 15px #1565c0;
-    }
+
 
     .about-us{
         padding: 10% 8%;

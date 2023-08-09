@@ -1,6 +1,8 @@
 import "./nav.css"
 import { Fragment } from "react";
 import logo from './static/hack-logo.png'
+import { Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Navbar=()=>{
     
     return(
@@ -12,23 +14,23 @@ const Navbar=()=>{
         </div>
 
         <div className="nav-buttons">
-            <a href="#hero" className="nav-btn">Home</a>
-            <a href="" className="nav-btn">Schedule</a>
-            <a href="#sponsors" className="nav-btn">Problems</a>
-            <a href="#about-us" className="nav-btn">Sponsors</a>
-            <a href="#footer" className="nav-btn">Guidelines</a>
-            <a href="#events" className="nav-btn ghost-btn">Register</a>
+            <Link to="/" className="nav-btn">Home</Link>
+            <Link to="" className="nav-btn">Schedule</Link>
+            <Link to="#sponsors" className="nav-btn">Problems</Link>
+            <Link to="#about-us" className="nav-btn">Sponsors</Link>
+            <Link to="guidelines" className="nav-btn">Guidelines</Link>
+            <Link to="#events" className="nav-btn ghost-btn">Register</Link>
         </div>
     
     </nav>
 
     <div className="nav-buttons-mobile hidden-nav">
-        <a href="#hero" className="nav-btn">Home</a>
-        <a href="" className="nav-btn">Schedule</a>
-        <a href="#sponsors" className="nav-btn">Problems</a>
-        <a href="#about-us" className="nav-btn">Sponsors</a>
-        <a href="#footer" className="nav-btn">Guidelines</a>
-        <a href="#events" className="nav-btn ghost-btn">Register</a>
+        <Link to="#hero" className="nav-btn">Home</Link>
+        <Link to="" className="nav-btn">Schedule</Link>
+        <Link to="#sponsors" className="nav-btn">Problems</Link>
+        <Link to="#about-us" className="nav-btn">Sponsors</Link>
+        <Link to="#footer" className="nav-btn">Guidelines</Link>
+        <Link to="#events" className="nav-btn ghost-btn">Register</Link>
     </div>
 
     <div className="hamburger" onClick={(e)=>{
@@ -44,7 +46,10 @@ const Navbar=()=>{
         <span className="line"></span>
         <span className="line"></span>
     </div>
+    <Outlet/>
+
     </Fragment>
+
     )   
 
 }
