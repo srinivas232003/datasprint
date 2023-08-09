@@ -70,7 +70,7 @@ const Footer=()=>{
 </div>
 
 <div className="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
-codewithfaraz © 2023 All Rights Reserved.
+SSIT AI-DS © 2023 All Rights Reserved.
  
                      </div>
 </footer>
