@@ -9,7 +9,8 @@ const Navbar=()=>{
         <Fragment>
         <nav className="header-nav">
         <div className="branding">
-            <img src={logo} alt=""/>
+            
+            <Link to="/"><img src={logo} alt=""/></Link>
             {/* <h1 className="brand-name">Lync Fest</h1> */}
         </div>
 
@@ -29,7 +30,7 @@ const Navbar=()=>{
         <Link to="" className="nav-btn">Schedule</Link>
         <Link to="#sponsors" className="nav-btn">Problems</Link>
         <Link to="#about-us" className="nav-btn">Sponsors</Link>
-        <Link to="#footer" className="nav-btn">Guidelines</Link>
+        <Link to="guidelines" className="nav-btn">Guidelines</Link>
         <Link to="#events" className="nav-btn ghost-btn">Register</Link>
     </div>
 
