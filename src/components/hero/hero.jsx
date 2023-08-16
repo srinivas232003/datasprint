@@ -21,7 +21,7 @@ const Hero=()=>{
     <Countdown/>
     <div className="countdown-txt">
     <h2>
-            September 1 - September 2 , 2023
+            September 7 - September 8 , 2023
         </h2>
     </div>
     <div className="butn-container">

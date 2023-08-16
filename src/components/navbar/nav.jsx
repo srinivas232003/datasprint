@@ -17,21 +17,21 @@ const Navbar=()=>{
         <div className="nav-buttons">
             <Link to="/" className="nav-btn">Home</Link>
             <Link to="" className="nav-btn">Schedule</Link>
-            <Link to="#sponsors" className="nav-btn">Problems</Link>
+            <Link to="/problems" className="nav-btn">Problems</Link>
             <Link to="#about-us" className="nav-btn">Sponsors</Link>
             <Link to="guidelines" className="nav-btn">Guidelines</Link>
-            <Link to="#events" className="nav-btn ghost-btn">Register</Link>
+            <Link to="/register" className="nav-btn ghost-btn">Register</Link>
         </div>
     
     </nav>
 
     <div className="nav-buttons-mobile hidden-nav">
-        <Link to="#hero" className="nav-btn">Home</Link>
+        <Link to="/" className="nav-btn" >Home</Link>
         <Link to="" className="nav-btn">Schedule</Link>
-        <Link to="#sponsors" className="nav-btn">Problems</Link>
-        <Link to="#about-us" className="nav-btn">Sponsors</Link>
+        <Link to="/problems" className="nav-btn">Problems</Link>
+        <Link to="" className="nav-btn">Sponsors</Link>
         <Link to="guidelines" className="nav-btn">Guidelines</Link>
-        <Link to="#events" className="nav-btn ghost-btn">Register</Link>
+        <Link to="/register" className="nav-btn ghost-btn">Register</Link>
     </div>
 
     <div className="hamburger" onClick={(e)=>{

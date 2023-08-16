@@ -7,10 +7,39 @@ import { loadSlim } from "tsparticles-slim";
 import Footer from './components/footer/footer';
 import Type from './components/type/type';
 import Navbar from './components/navbar/nav';
-import Timeline from './components/timeline/timeline';
 import Hero from './components/hero/hero';
 import {Routes,Route} from "react-router-dom"
 import Guidelines from './components/guidelines/guidelines';
+import DomainList from './components/problems/problems';
+import Cardlist from './components/swiper/swiper';
+import Form from './components/forms/forms';
+const slideData = [
+  {
+    index: 0,
+    headline: 'New Fashion Apparel',
+    button: 'Shop now',
+    src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg'
+  },
+  {
+    index: 1,
+    headline: 'In The Wilderness',
+    button: 'Book travel',
+    src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg'
+  },
+  {
+    index: 2,
+    headline: 'For Your Current Mood',
+    button: 'Listen',
+    src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg'
+  },
+  {
+    index: 3,
+    headline: 'Focus On The Writing',
+    button: 'Get Focused',
+    src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/typewriter.jpg'
+  }
+]
+
 function App() {
   const particlesInit = useCallback(async engine => {
     console.log(engine);
@@ -126,11 +155,11 @@ return (
       <Route path='/' element={<Navbar/>}>
       <Route index element={<Hero/>}/>
       <Route path='guidelines' element={<Guidelines list={["1. It is a 24 hour OFFLINE Hackathon.", "2. No registration fee", "3. Team should consist of 2 - 4 members.", "4. Only the Team Lead should register for the Hackathon.", "5. The teams should choose the problem statement from the list available on the site", "6. Registrations will be shortlisted and the shortlisted team will be informed.", "7. All participants are required to bring their Laptops, Ethernet cable and College ID (other accessories if necessary).", "8. All design elements, code, hardware builds, etc. for your project must be created during the event.", "9. Food will be provided for all the participants.", "10. If accommodation is required kindly send the request to Datasprint@sairamit.edu.in", "Note: If we find damages to any property/equipment of the college, they'll be charged the price of the property damaged, this will be non-partial"]}/>}/>
-      {/* <Route path='history' element={<History/>}/> */}
-      {/* <Route path='contact' element={<Contact/>}/> */}
+      <Route path='problems' element={<Cardlist/>}/>
+      <Route path='register' element={<Form/>}/>
       {/* <Route path='admin' element={<Signin/>}/> */}
         {/* <Route path="post" element={<MyEditor/>}/> */}
-      
+        
       </Route>
     </Routes>
     <Footer/> 

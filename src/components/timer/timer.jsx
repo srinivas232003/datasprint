@@ -3,7 +3,7 @@ import { useState,useEffect } from "react";
 import "./timer.scss"
 
 const Countdown = () => {
-  const [countdownDate, setCountdownDate] = useState(new Date('08/23/2023').getTime());
+  const [countdownDate, setCountdownDate] = useState(new Date('09/06/2023').getTime());
   const [state, setState] = useState({
     days: 0,
     hours: 0,

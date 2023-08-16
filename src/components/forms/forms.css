@@ -1,0 +1,7 @@
+.frm{
+padding-top:20%;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
