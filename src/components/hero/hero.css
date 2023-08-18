@@ -98,6 +98,7 @@ display: block;
     color:    rgb(191, 101, 191);
     border-radius: 35px;
     margin:0 2%;
+    text-align: justify;
     /* height: max-content; */
     /* outline: 1px solid red; */
 }
@@ -163,7 +164,7 @@ display: block;
     .about-us{
         padding: 10% 8%;
         gap: 30px;
-        text-align: center;
+        text-align: justify;
     }
 
     .event-card{

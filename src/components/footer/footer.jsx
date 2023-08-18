@@ -51,19 +51,19 @@ const Footer=()=>{
 
 <div className="container p-4 pb-0">
   <section className="mb-">
-    <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+    <a className="btn btn-outline-light btn-floating m-1" target="_self" href="https://www.facebook.com/SairamITai" role="button"
       ><i className="fa fa-facebook-f"></i
     ></a>
 
-    <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-      ><i className="fa fa-twitter"></i
+    <a className="btn btn-outline-light btn-floating m-1" target="_self" href="https://www.linkedin.com/in/department-of-ai-ds-sri-sairam-institute-of-technology-9b6486224/" role="button"
+      ><i className="fa fa-linkedin"></i
     ></a>
 
-    <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+    <a className="btn btn-outline-light btn-floating m-1" target="_self" href="http://ai.sairamit.edu.in/" role="button"
       ><i className="fa fa-google"></i
     ></a>
 
-    <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+    <a className="btn btn-outline-light btn-floating m-1" target="_self" href="https://www.instagram.com/aids_sairamit/?igshid=MzRlODBiNWFlZA%3D%3D" role="button"
       ><i className="fa fa-instagram"></i
     ></a>
 
