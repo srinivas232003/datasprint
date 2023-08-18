@@ -16,7 +16,7 @@ const Navbar=()=>{
 
         <div className="nav-buttons">
             <Link to="/" className="nav-btn">Home</Link>
-            <Link to="" className="nav-btn">Schedule</Link>
+            <Link to="/schedule" className="nav-btn">Schedule</Link>
             <Link to="/problems" className="nav-btn">Problems</Link>
             <Link to="#about-us" className="nav-btn">Sponsors</Link>
             <Link to="guidelines" className="nav-btn">Guidelines</Link>
@@ -27,7 +27,7 @@ const Navbar=()=>{
 
     <div className="nav-buttons-mobile hidden-nav">
         <Link to="/" className="nav-btn" >Home</Link>
-        <Link to="" className="nav-btn">Schedule</Link>
+        <Link to="/schedule" className="nav-btn">Schedule</Link>
         <Link to="/problems" className="nav-btn">Problems</Link>
         <Link to="" className="nav-btn">Sponsors</Link>
         <Link to="guidelines" className="nav-btn">Guidelines</Link>

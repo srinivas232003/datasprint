@@ -1,11 +1,11 @@
 import Typed from 'react-typed';
 import './type.css';
 
-export default function Type() {
+export default function Type(props) {
   return (
     <div className="typing-div">
       <h1>
-        <Typed strings={["24 hours of creation","24 hours of fun","win exciting prizes!","enjoy!"]} typeSpeed={80} loop />
+        <Typed strings={props.dt} typeSpeed={80} loop />
       </h1>
     </div>
   );

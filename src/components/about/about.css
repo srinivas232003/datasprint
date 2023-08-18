@@ -1,0 +1,14 @@
+.about-us hr{
+
+        position:relative;
+        border: none;
+        background-color: #acacac70;
+        height: 1px;
+        /* color: #eeeeee; */
+        width: 80%;
+        margin: auto;
+
+}
+.ai{
+    color:blueviolet;
+}

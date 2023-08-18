@@ -1,7 +1,9 @@
 import React from "react";
 import './swiper.scss'
-
-
+import Countdown from "../timer/timer";
+// import "../timer/timer.scss"
+// import "./temp.css"
+import Type from "../type/type";
 const Card=()=>{
   const dt=[
   {
@@ -68,4 +70,30 @@ const Cardlist=()=>{
 </div>
   )
 }
+//to be added when registration opens//
+const style={
+  "padding-top":"13%",
+  "position":"relative",
+  "text-align":"center",
+  "height":"600px",
+  "display":"flex",
+  "justify-content":"center",
+  "align-items":"center",
+}
+const cmt={
+  "position":"relative",
+  "color":"white",
+
+}
+// const Cardlist=()=>{
+//   return(
+//     <div className=".cnt" style={style}>
+//       <div className='cmt' style={cmt}>
+//         <h1 class="he1"> <Type dt={["Problems will be updated soon!","Stay tuned"]}/></h1>
+//       <Countdown/>
+//       <h1 class="abt">until Hackaton</h1>
+//     </div>
+//     </div>
+//   )
+// }
 export default Cardlist;

@@ -2,7 +2,10 @@
     padding-top: 90px;
   
   }
-
+.map{
+    width:80px;
+    height:80px;
+}
 .address-main > div.col-lg-4 {
     border-bottom: dotted 1px #999;
 }

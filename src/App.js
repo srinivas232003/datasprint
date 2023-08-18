@@ -13,6 +13,7 @@ import Guidelines from './components/guidelines/guidelines';
 import DomainList from './components/problems/problems';
 import Cardlist from './components/swiper/swiper';
 import Form from './components/forms/forms';
+import Chront from './components/chrono/chrono';
 const slideData = [
   {
     index: 0,
@@ -154,10 +155,10 @@ return (
       <Routes>
       <Route path='/' element={<Navbar/>}>
       <Route index element={<Hero/>}/>
-      <Route path='guidelines' element={<Guidelines list={["1. It is a 24 hour OFFLINE Hackathon.", "2. No registration fee", "3. Team should consist of 2 - 4 members.", "4. Only the Team Lead should register for the Hackathon.", "5. The teams should choose the problem statement from the list available on the site", "6. Registrations will be shortlisted and the shortlisted team will be informed.", "7. All participants are required to bring their Laptops, Ethernet cable and College ID (other accessories if necessary).", "8. All design elements, code, hardware builds, etc. for your project must be created during the event.", "9. Food will be provided for all the participants.", "10. If accommodation is required kindly send the request to Datasprint@sairamit.edu.in", "Note: If we find damages to any property/equipment of the college, they'll be charged the price of the property damaged, this will be non-partial"]}/>}/>
+      <Route path='guidelines' element={<Guidelines list={[" It is a 24 hour OFFLINE Hackathon.", "No registration fee", "Team should consist of 2 - 4 members.", "Only the Team Lead should register for the Hackathon.", "The teams should choose the problem statement from the list available on the site", "Registrations will be shortlisted and the shortlisted team will be informed.", "All participants are required to bring their Laptops, Ethernet cable and College ID (other accessories if necessary).", "All design elements, code, hardware builds, etc. for your project must be created during the event.", "Food will be provided for all the participants.", "If accommodation is required kindly send the request to Datasprint@sairamit.edu.in", "If we find damages to any property/equipment of the college, they'll be charged the price of the property damaged, this will be non-partial"]}/>}/>
       <Route path='problems' element={<Cardlist/>}/>
       <Route path='register' element={<Form/>}/>
-      {/* <Route path='admin' element={<Signin/>}/> */}
+      <Route path='/schedule' element={<Chront/>}/>
         {/* <Route path="post" element={<MyEditor/>}/> */}
         
       </Route>

@@ -10,35 +10,36 @@ const Footer=()=>{
       <div className="col-lg-4 col-sm-12 col-xs-12">
         <div className="address-box clearfix">
           <div className="add-icon">
-            <img src="Img/footer-icon-01.png" alt="" />
-          </div>
+          <iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62210.801033170384!2d79.98319465820313!3d12.960647099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f51f638ddfbb%3A0xf3aef7ec7c8979ba!2sSri%20Sairam%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1664645478525!5m2!1sen!2sin" tyle={{"width":"80px","height":"80px"}} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>          </div>
           <div className="add-content">
             <h5>Address</h5>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-			sed do eiusmod tempor incididunt ut veniam </p>
+            <p>  Sri Sai Ram Institute of Technology,
+              Sai Leo Nagar, West Tambaram,Chennai - 600044
+</p>
           </div>
         </div>
       </div>
       <div className="col-lg-4 col-sm-12 col-xs-12">
         <div className="address-box clearfix">
           <div className="add-icon">
-            <img src="Img/footer-icon-02.png" alt="" />
+            <img src="https://res.cloudinary.com/dcsduqstu/image/upload/v1692262136/telephone_l5izyw.png" alt="" />
           </div>
           <div className="add-content">
             <h5>Phone</h5>
-            <p>  +(91) 000000000 <br />
-            +(91) 000000000  </p>
+            <p> +91 80561 78031
+ <br />
+            +91 6381 291791  </p>
           </div>
         </div>
       </div>
       <div className="col-lg-4 col-sm-12 col-xs-12">
         <div className="address-box clearfix">
           <div className="add-icon" >
-            <img src={"Img/footer-icon-03.png"} alt="" />
+            <img src={"https://res.cloudinary.com/dcsduqstu/image/upload/v1692261725/gmail_ys11xo.png"} alt="" />
           </div>
           <div className="add-content">
             <h5>Email</h5>
-            <p> <a href="mailto:" style={{textDecoration:"none"}}>collab@codewithfaraz.com</a> </p>
+            <p> <a href="mailto:sairamaids@sairamtap.edu.in" style={{textDecoration:"none"}}>sairamaids@sairamtap.edu.in</a> </p>
           </div>
         </div>
       </div>
