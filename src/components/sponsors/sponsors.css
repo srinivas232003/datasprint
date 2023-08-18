@@ -1,0 +1,61 @@
+.spnsors{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* outline: 1px solid red; */
+    padding: 7% 10%;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.spoName{
+    margin-top: 30px;
+}
+
+.company-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.company-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: rgb(29, 29, 29);
+    width: 300px;
+    height:300px;
+    border-radius: 20px;
+    outline: 1px solid white;
+    box-shadow: 0 0 10px #461959;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.company-btn img{
+  border-radius:20px;
+    width: 100%;
+    
+}
+
+/* // .company-btn:last-of-type{
+//     padding: 1.8% 0%;
+// }
+
+// .company-btn:last-of-type img{
+//     width: 80%;
+// } */
+
+.company-btn:hover{
+    /* transform: scale(1.02); */
+    box-shadow: 0 0 30px #461959;
+}
+.spnsors {
+    color:rgb(220, 233, 197);
+    font-size: 2rem;
+
+}

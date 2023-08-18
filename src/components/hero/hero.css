@@ -11,6 +11,45 @@
     padding-bottom: 0%;
     width: 100%;
 }
+.sponsors{
+    /* color:rgb(191, 101, 191); */
+    width:90%;
+    margin-top: 15px;
+    text-align: center;
+    color:white;
+    font-size: 2rem;
+}
+.sp-hwk{
+    color:#82CD47;
+    font-size:2rem ;
+    
+}
+
+  
+.sp-Hyundai{
+    color:#568ace;
+    font-size:2rem ;
+}
+.lineUp {
+    animation:anim-lineUp 5s ease-out infinite;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
 .hero-cont{
     padding-top:14%;
 }
@@ -52,7 +91,7 @@
     /* outline: 1px solid red; */
 }
 
-.about-us p{
+.about-us {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 1.3rem;
@@ -163,41 +202,13 @@
     .schedule-event-logo{
         display: none;
     }
-}
-.sponsors{
-    /* color:rgb(191, 101, 191); */
-    margin-top: 15px;
-    text-align: center;
-    color:white;
-    font-size: 2rem;
-}
-.sp-hwk{
-    color:#82CD47;
-    font-size:2.25rem ;
-}
-
-  
-.sp-Hyundai{
-    color:#0C356A;
-    font-size:2.25rem ;
-}
-.lineUp {
-    animation:anim-lineUp 5s ease-out infinite;
-  }
-  @keyframes anim-lineUp {
-    0% {
-      opacity: 0;
-      transform: translateY(80%);
+    .sponsors{
+        font-size:1.2rem
     }
-    20% {
-      opacity: 0;
+    .sp-hwk{
+        font-size: 1.2rem;
     }
-    50% {
-      opacity: 1;
-      transform: translateY(0%);
+    .sp-Hyundai{
+        font-size: 1.2rem;
     }
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
+}

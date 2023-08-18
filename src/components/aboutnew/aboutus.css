@@ -1,0 +1,24 @@
+.abt-us{
+    padding-top: 13%;
+position:relative;
+justify-content: center;
+align-items:center;
+color:white;
+margin:0 5%;
+
+}
+.abt-cnt{
+    border:2px solid rgb(191, 101, 191);
+    padding:3%;
+}
+.abt-us div{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color:white;
+}
+@media screen and (min-width: 350px) and (max-width: 800px){
+    .abt-us{
+        padding-top: 30%;
+    }
+}

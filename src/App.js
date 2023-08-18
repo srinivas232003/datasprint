@@ -14,6 +14,9 @@ import DomainList from './components/problems/problems';
 import Cardlist from './components/swiper/swiper';
 import Form from './components/forms/forms';
 import Chront from './components/chrono/chrono';
+import Aboutus from './components/aboutnew/abooutus';
+import Sponsors from './components/sponsors/sponsors';
+import SponsorPage from './components/sponsors-page/sponsorpage';
 const slideData = [
   {
     index: 0,
@@ -158,8 +161,8 @@ return (
       <Route path='guidelines' element={<Guidelines list={[" It is a 24 hour OFFLINE Hackathon.", "No registration fee", "Team should consist of 2 - 4 members.", "Only the Team Lead should register for the Hackathon.", "The teams should choose the problem statement from the list available on the site", "Registrations will be shortlisted and the shortlisted team will be informed.", "All participants are required to bring their Laptops, Ethernet cable and College ID (other accessories if necessary).", "All design elements, code, hardware builds, etc. for your project must be created during the event.", "Food will be provided for all the participants.", "If accommodation is required kindly send the request to Datasprint@sairamit.edu.in", "If we find damages to any property/equipment of the college, they'll be charged the price of the property damaged, this will be non-partial"]}/>}/>
       <Route path='problems' element={<Cardlist/>}/>
       <Route path='register' element={<Form/>}/>
-      <Route path='/schedule' element={<Chront/>}/>
-        {/* <Route path="post" element={<MyEditor/>}/> */}
+      <Route path='schedule' element={<Aboutus/>}/>
+      <Route path="sponsors" element={<SponsorPage/>}/>
         
       </Route>
     </Routes>

@@ -2,7 +2,7 @@ import React from "react"
 import './chrono.scss'
 
 const Chront=()=>{
-  let dt=[{"date":"August 17","title":"Registration Begins"},{"date":"September 1","title":"Registration ends"},{"date":"September 3","title":"Shortlisting"},{"date":"September 7","title":"Hackathon begins"}]
+  let dt=[{"date":"August 18","title":"Registration Begins"},{"date":"August 1","title":"Registration ends"},{"date":"September 1","title":"Shortlisting"},{"date":"September 7","title":"Hackathon begins"}]
   return(
     <div className="mg">
 <div className="con">

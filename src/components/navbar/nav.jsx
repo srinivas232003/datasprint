@@ -18,7 +18,7 @@ const Navbar=()=>{
             <Link to="/" className="nav-btn">Home</Link>
             <Link to="/schedule" className="nav-btn">Schedule</Link>
             <Link to="/problems" className="nav-btn">Problems</Link>
-            <Link to="#about-us" className="nav-btn">Sponsors</Link>
+            <a href="#sponsors" className="nav-btn">Sponsors</a>
             <Link to="guidelines" className="nav-btn">Guidelines</Link>
             <Link to="/register" className="nav-btn ghost-btn">Register</Link>
         </div>
@@ -29,7 +29,10 @@ const Navbar=()=>{
         <Link to="/" className="nav-btn" >Home</Link>
         <Link to="/schedule" className="nav-btn">Schedule</Link>
         <Link to="/problems" className="nav-btn">Problems</Link>
-        <Link to="" className="nav-btn">Sponsors</Link>
+        {/* <div onClick={() => window.location.replace("/#about")}>
+                <span>Sponsors</span>
+            </div> */}
+        <a href="/#sponsors" className="nav-btn">Sponsors</a>
         <Link to="guidelines" className="nav-btn">Guidelines</Link>
         <Link to="/register" className="nav-btn ghost-btn">Register</Link>
     </div>
