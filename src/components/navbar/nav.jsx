@@ -16,7 +16,7 @@ const Navbar=()=>{
 
         <div className="nav-buttons">
             <Link to="/" className="nav-btn">Home</Link>
-            <Link to="/schedule" className="nav-btn">Schedule</Link>
+            <Link to="/schedule" className="nav-btn">About us</Link>
             <Link to="/problems" className="nav-btn">Problems</Link>
             <a href="#sponsors" className="nav-btn">Sponsors</a>
             <Link to="guidelines" className="nav-btn">Guidelines</Link>
@@ -27,7 +27,7 @@ const Navbar=()=>{
 
     <div className="nav-buttons-mobile hidden-nav">
         <Link to="/" className="nav-btn" >Home</Link>
-        <Link to="/schedule" className="nav-btn">Schedule</Link>
+        <Link to="/schedule" className="nav-btn">About us</Link>
         <Link to="/problems" className="nav-btn">Problems</Link>
         {/* <div onClick={() => window.location.replace("/#about")}>
                 <span>Sponsors</span>
