@@ -11,10 +11,10 @@ const Sponsors=()=>{
            
                        
         </div>
-        <div>
+        {/* <div>
         <a target="_blank" href="https://www.hyundai.com/in/en" className="company-btn" data-aos="zoom-in"><img src="" alt=""/></a>
             <div className="spoName">Hyundai Motors India</div>
-        </div>
+        </div> */}
         </div>
         
     </section>

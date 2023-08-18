@@ -14,7 +14,7 @@ const Hero=()=>{
         <section className="hero" id="hero">
         <img src={logo} alt=""/>
         <div className="sponsors">
-            Sponsored by <span className="sp-hwk lineUp">BlackHawk Network &nbsp;</span>and &nbsp;<span className="sp-Hyundai lineUp">Hyundai Motors India</span>
+            Sponsored by <span className="sp-hwk lineUp">BlackHawk Network</span>
         </div>
     </section>
     <Type dt={["Open to all streams","24 Hours of creation","24 Hours of fun","Win exciting prizes!","Enjoy!"]}/>
