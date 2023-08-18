@@ -12,7 +12,8 @@ const Hero=()=>{
     return(
         <div className="hero-cont">
         <section className="hero" id="hero">
-        <div className="presents">The Department of <span className="ai">Artificial intelligence and Data Science</span> proudly presents</div>
+        <div className="presents">Department of <span className="ai">Artificial intelligence and Data Science</span> 
+        <br/><span className="pr">presents</span></div>
         <img src={logo} alt=""/>
         <div className="sponsors">
             Sponsored by <span className="sp-hwk lineUp">BlackHawk Network</span>

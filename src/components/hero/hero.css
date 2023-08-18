@@ -11,9 +11,12 @@
     padding-bottom: 0%;
     width: 100%;
 }
+.pr{
+margin-bottom: 15px;
+display: block;
+}
 .presents{
     color:white;
-
     font-size: xx-large;
     text-align: center;
 }
@@ -112,7 +115,8 @@
 
     }
     .presents{
-        font-size: x-large;
+        font-size: 4vw;
+        /* width:90%; */
     }
     .header-nav .nav-buttons{
         display: none;
