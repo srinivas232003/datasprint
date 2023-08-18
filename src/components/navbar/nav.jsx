@@ -10,8 +10,9 @@ const Navbar=()=>{
         <nav className="header-nav">
         <div className="branding">
             
-            <Link to="/"><img src={logo} alt=""/></Link>
-            {/* <h1 className="brand-name">Lync Fest</h1> */}
+            <Link to="/"><img className="evt" src={logo} alt=""/></Link>
+            <span><img className="clg" src="https://res.cloudinary.com/dcsduqstu/image/upload/v1692376766/SIT_LOGO_xoawck.png"/></span>
+            <span> <img className="dept" src="https://res.cloudinary.com/dcsduqstu/image/upload/v1692376767/Logo_nebfrq.png"/></span>
         </div>
 
         <div className="nav-buttons">

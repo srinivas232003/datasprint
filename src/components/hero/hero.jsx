@@ -12,6 +12,7 @@ const Hero=()=>{
     return(
         <div className="hero-cont">
         <section className="hero" id="hero">
+        <div className="presents">The Department of <span className="ai">Artificial intelligence and Data Science</span> proudly presents</div>
         <img src={logo} alt=""/>
         <div className="sponsors">
             Sponsored by <span className="sp-hwk lineUp">BlackHawk Network</span>
@@ -30,7 +31,6 @@ const Hero=()=>{
     <h2>
             September 7 - September 8 , 2023
     </h2>
-    
     </div>
     <div className="butn-container">
    <Link to="register"><button class="butn">Register</button></Link>

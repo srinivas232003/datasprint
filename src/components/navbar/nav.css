@@ -21,12 +21,19 @@
     will-change: contents;
 }
 
-.header-nav .branding img{
+.header-nav .branding .evt{
     display: inline-block;
     width: 210px;
     transition: width 0.4s ease;
     will-change: width;
     margin-left:15px;
+}
+.clg{
+    width:80px;
+
+}
+.dept{
+    width:95px;
 }
 
 .branding{
@@ -143,7 +150,21 @@
     .header-nav .nav-buttons{
         display: none;
     }
-
+    .header-nav .branding .evt{
+        display: inline-block;
+        width: 140px;
+        transition: width 0.4s ease;
+        will-change: width;
+        margin-left:15px;
+        height:60px;
+    }
+    .clg{
+        width:65px;
+    
+    }
+    .dept{
+        width:80px
+    }
     .nav-buttons-mobile{
         display: flex
     }
