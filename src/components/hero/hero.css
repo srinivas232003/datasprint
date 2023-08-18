@@ -60,7 +60,7 @@ display: block;
     }
   }
 .hero-cont{
-    padding-top:14%;
+    padding-top:8%;
 }
 .hero img{
     width: 40%;
@@ -92,10 +92,12 @@ display: block;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 5% 6%;
-    gap: 50px;
+    padding: 4% 6%;
+    /* gap: 50px; */
     background:rgba(15, 15, 15, 0.7);
     color:    rgb(191, 101, 191);
+    border-radius: 35px;
+    margin:0 2%;
     /* height: max-content; */
     /* outline: 1px solid red; */
 }
