@@ -8,11 +8,12 @@ import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from './components/scrolltotop/scrolltotop';
-
+import ScrollToHashElement from './components/scrolltotop/scrolltoHash';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <ScrollToHashElement />
     <ScrollToTop/>
     <App/>
     </BrowserRouter>

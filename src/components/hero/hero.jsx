@@ -19,7 +19,7 @@ const Hero=()=>{
             Sponsored by <span className="sp-hwk lineUp">BlackHawk Network</span>
         </div>
     </section>
-    <Type dt={["Open to all streams","24 Hours of creation","24 Hours of fun","Win exciting prizes!","Enjoy!"]}/>
+    <Type dt={["Open to all streams","24 Hours of creation","24 Hours of fun","Win exciting cash prizes and internship oppurtunities!","Enjoy!"]}/>
     <div className="desc-cont">
     <p className="desc">Bring-out your hidden tech genius in this <span>24</span>  hours hackathon by solving difficult problems faced by the public.</p>
     </div>
@@ -45,4 +45,4 @@ const Hero=()=>{
   </div>
     )
 }
-export default Hero
+export default Hero;
