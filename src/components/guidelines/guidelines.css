@@ -5,6 +5,8 @@
     position:relative;
     padding-top:8%;
     font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
 }
 .wrapper {
     position:relative;
@@ -12,6 +14,7 @@
     max-width: 1000px;
     padding:25px;
     border:2px solid #6c3383;
+    margin-bottom: 2.5rem;
 
   }
   .wrapper h2 {
@@ -32,6 +35,8 @@
     position: relative;
     color:white;
     margin-bottom:.9rem;
+    text-align: justify;
+
   }
   ol > li:before {
     background:#461959 ;

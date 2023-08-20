@@ -1,5 +1,6 @@
 import React from "react"
 import "./guidelines.css"
+import {Link} from "react-router-dom"
 const Line=(props)=>{
     return(
         <li>{props.line}</li>
@@ -14,6 +15,7 @@ const Guidelines=(props)=>{
      { props.list.map((e)=><Line line={e} />)} 
   </ol>
 </div>
+<Link to="/register"><button class="butn">Register</button></Link>
 </div>
     )
 }

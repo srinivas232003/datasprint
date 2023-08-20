@@ -34,7 +34,7 @@ const Hero=()=>{
     </h2>
     </div>
     <div className="butn-container">
-   <Link to="register"><button class="butn">Register</button></Link>
+   <Link to="guidelines"><button class="butn">Register</button></Link>
   </div>
   <hr/>
   <div className="hmc">
